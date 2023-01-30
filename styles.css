@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle1 {
+  background-color: #00ae58;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  border-radius: 50%;
+}
+.circle2 {
+  background-color: yellow;
+  top: 20%;
+  left: 20%; /* of the container */
+  width: 60%; /* of the outer-1 */
+  height: 60%; /* of the outer-1 */
+  position: absolute;
+  border-radius: 50%;
+}
+.circle3 {
+  background-color: cornflowerblue;
+  top: 40%;
+  left: 40%;
+  width: 20%;
+  height: 20%;
+  position: absolute;
+  border-radius: 50%;
+}
